@@ -1,0 +1,144 @@
+/* Slider */
+/* line 3, C:/Users/Simberto/Desktop/Toast-master/slick/slick.scss */
+.slick-slider {
+  position: relative; 
+  display: block;
+  box-sizing: border-box;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -ms-touch-action: pan-y;
+  touch-action: pan-y;
+  -webkit-tap-highlight-color: transparent; }
+
+/* line 17, C:/Users/Simberto/Desktop/Toast-master/slick/slick.scss */
+.slick-list {
+  position: relative;
+  overflow: hidden;
+  display: block;
+  margin: 0;
+  padding: 0;  }
+  /* line 24, C:/Users/Simberto/Desktop/Toast-master/slick/slick.scss */
+  .slick-list:focus {
+    outline: none; }
+  /* line 28, C:/Users/Simberto/Desktop/Toast-master/slick/slick.scss */
+  .slick-list.dragging {
+    cursor: pointer;
+    cursor: hand; }
+
+.regular .slick-list { padding: 5px 0px !important; margin: 0 0px;}
+
+.regular .slick-slide {  margin: 0 -4px 0 2px !important;}
+.regular .slick-list .box { margin: 0 4px; }
+
+.grid--no-gutter  .slick-slide {  margin: 0 -4px 0 2px !important;}
+.grid--no-gutter .slick-list { padding: 5px 0px !important;}
+.grid--no-gutter .slick-list .box { margin: 0 4px; }
+
+
+/*.regular3 .slick-list { padding: 5px 0px !important; margin: 0 0px;}
+
+.regular3 .slick-slide {  margin: 0 -4px 0 2px !important;}
+.regular3 .slick-list .box { margin: 0 4px; }*/
+
+.regular3 .slick-slide {
+    padding: 0 1px;
+}
+
+.regular3 .slick-list { padding: 5px 0px !important; margin: 0 0px;}
+
+.regular3 .slick-slide {  margin: 0 -4px 0 2px !important;}
+.regular3 .slick-list .box { margin: 0 4px; }
+
+/*ХАК для сеток*/
+
+/*.regular2 .slick-slide {
+    margin: 0 1px;
+}
+
+.regular2  .slick-list {
+    margin: 0 -1px;
+}*/
+
+
+/*
+.regular2 .slick-slide {
+    margin: 0 1px;
+}
+
+.regular2  .slick-list {
+    margin: 0 -1px; padding: 5px 0px !important; 
+}
+*/
+
+
+/*.regular2  .slick-slide {  margin: 0 -4px 0 2px !important;}
+.regular2 .slick-list { padding: 5px 0px !important;}
+.regular2.slick-list .box { margin: 0 4px; }*/
+
+
+/* line 34, C:/Users/Simberto/Desktop/Toast-master/slick/slick.scss */
+.slick-slider .slick-track,
+.slick-slider .slick-list {
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0); }
+
+/* line 42, C:/Users/Simberto/Desktop/Toast-master/slick/slick.scss */
+.slick-track {
+  position: relative;
+  left: 0;
+  top: 0;
+  display: block; }
+  /* line 49, C:/Users/Simberto/Desktop/Toast-master/slick/slick.scss */
+  .slick-track:before,
+  .slick-track:after {
+    content: "";
+    display: table; }
+  /* line 54, C:/Users/Simberto/Desktop/Toast-master/slick/slick.scss */
+  .slick-track:after {
+    clear: both; }
+  /* line 58, C:/Users/Simberto/Desktop/Toast-master/slick/slick.scss */
+  .slick-loading .slick-track {
+    visibility: hidden; }
+
+/* line 62, C:/Users/Simberto/Desktop/Toast-master/slick/slick.scss */
+.slick-slide {
+  float: left;
+  height: 100%;
+  min-height: 1px;
+  display: none; }
+  /* line 66, C:/Users/Simberto/Desktop/Toast-master/slick/slick.scss */
+  [dir="rtl"] .slick-slide {
+    float: right; }
+  /* line 69, C:/Users/Simberto/Desktop/Toast-master/slick/slick.scss */
+  .slick-slide img {
+    display: block; }
+  /* line 72, C:/Users/Simberto/Desktop/Toast-master/slick/slick.scss */
+  .slick-slide.slick-loading img {
+    display: none; }
+  /* line 78, C:/Users/Simberto/Desktop/Toast-master/slick/slick.scss */
+  .slick-slide.dragging img {
+    pointer-events: none; }
+  /* line 82, C:/Users/Simberto/Desktop/Toast-master/slick/slick.scss */
+  .slick-initialized .slick-slide {
+    display: block; }
+  /* line 86, C:/Users/Simberto/Desktop/Toast-master/slick/slick.scss */
+  .slick-loading .slick-slide {
+    visibility: hidden; }
+  /* line 90, C:/Users/Simberto/Desktop/Toast-master/slick/slick.scss */
+  .slick-vertical .slick-slide {
+    display: block;
+    height: auto;
+    border: 1px solid transparent; }
+
+/* line 96, C:/Users/Simberto/Desktop/Toast-master/slick/slick.scss */
+.slick-arrow.slick-hidden {
+  display: none; }
+
+/*# sourceMappingURL=slick.css.map */

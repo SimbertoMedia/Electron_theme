@@ -1,0 +1,811 @@
+
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+.container-fluid { max-width:1240px; padding: 0 20px;}
+
+/*1*/
+/*-------------------------------------------------------------------------------------------------*/
+/*CARD FROM BS4  https://github.com/martinbean/bootstrap-3-card*/
+/*# sourceMappingURL=bootstrap.css.map */
+
+
+.card {
+  position: relative;
+  display: block;
+   margin-bottom: 20px;
+  background-color: #fff;
+ /* border-radius: 3px;*/
+  /*border: 1px solid rgba(0, 0, 0, 0.75);  */
+}
+
+.card-block {
+  padding: 20px;
+}
+
+.card-block::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.card-title {
+  margin-bottom: 15px;
+}
+
+.card-subtitle {
+  margin-top: -5px;
+  margin-bottom: 0;
+}
+
+.card-text:last-child {
+  margin-bottom: 0;
+}
+
+.card-link:hover {
+  text-decoration: none;
+}
+
+.card-link + .card-link {
+  margin-left: 20px;
+}
+
+.card > .list-group:first-child .list-group-item:first-child {
+/*  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;*/
+}
+
+.card > .list-group:last-child .list-group-item:last-child {
+ /* border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;*/
+}
+
+.card-header {
+  padding: 15px 20px;
+  background-color: #f5f5f5;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.card-header::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.card-header:first-child {
+ /* border-radius: 3px 3px 0 0; */border-radius: 0px 0px 0 0;
+}
+
+.card-footer {
+  padding: 15px 20px;
+  background-color: #f5f5f5;
+  border-top: 1px solid rgba(0, 0, 0, 0.075);
+}
+
+.card-footer::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.card-footer:last-child {
+  border-radius: 0 0 3px 3px;
+}
+
+.card-header-tabs {
+  margin-right: -10px;
+  margin-bottom: -15px;
+  margin-left: -10px;
+  border-bottom: 0;
+}
+
+.card-header-pills {
+  margin-right: -10px;
+  margin-left: -10px;
+}
+
+.card-primary {
+  background-color: #0275d8;
+  border-color: #0275d8;
+}
+
+.card-primary .card-header,
+.card-primary .card-footer {
+  background-color: transparent;
+}
+
+.card-success {
+  background-color: #5cb85c;
+  border-color: #5cb85c;
+}
+
+.card-success .card-header,
+.card-success .card-footer {
+  background-color: transparent;
+}
+
+.card-info {
+  background-color: #5bc0de;
+  border-color: #5bc0de;
+}
+
+.card-info .card-header,
+.card-info .card-footer {
+  background-color: transparent;
+}
+
+.card-warning {
+  background-color: #f0ad4e;
+  border-color: #f0ad4e;
+}
+
+.card-warning .card-header,
+.card-warning .card-footer {
+  background-color: transparent;
+}
+
+.card-danger {
+  background-color: #d9534f;
+  border-color: #d9534f;
+}
+
+.card-danger .card-header,
+.card-danger .card-footer {
+  background-color: transparent;
+}
+
+.card-outline-primary {
+  background-color: transparent;
+  border-color: #0275d8;
+}
+
+.card-outline-secondary {
+  background-color: transparent;
+  border-color: #ccc;
+}
+
+.card-outline-info {
+  background-color: transparent;
+  border-color: #5bc0de;
+}
+
+.card-outline-success {
+  background-color: transparent;
+  border-color: #5cb85c;
+}
+
+.card-outline-warning {
+  background-color: transparent;
+  border-color: #f0ad4e;
+}
+
+.card-outline-danger {
+  background-color: transparent;
+  border-color: #d9534f;
+}
+
+.card-inverse .card-header,
+.card-inverse .card-footer {
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.card-inverse .card-header,
+.card-inverse .card-footer,
+.card-inverse .card-title,
+.card-inverse .card-blockquote {
+  color: #fff;
+}
+
+.card-inverse .card-link,
+.card-inverse .card-text,
+.card-inverse .card-subtitle,
+.card-inverse .card-blockquote .blockquote-footer {
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.card-inverse .card-link:focus, .card-inverse .card-link:hover {
+  color: #fff;
+}
+
+.card-blockquote {
+  padding: 0;
+  margin-bottom: 0;
+  border-left: 0;
+}
+
+.card-img {
+ /* border-radius: 3px; */
+}
+
+.card-img-overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 20px; 
+}
+
+
+
+.card-img-overlay__hover {
+      position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 20px;     /*border-radius: 3px;*/
+  background:rgba(0,0,0,0.70); opacity:0;    
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s; color:#fff !important;
+    }
+.card:hover  .card-img-overlay__hover { opacity:1}
+
+.card-img-top {
+/*  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;*/
+}
+
+.card-img-bottom {
+/*  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;*/
+}
+
+
+
+
+@media (min-width: 544px) {
+  .card-deck {
+    display: table;
+    width: 100%;
+    margin-bottom: 15px;
+    table-layout: fixed;
+    border-spacing: 20px 0;
+  }
+  .card-deck .card {
+    display: table-cell;
+    margin-bottom: 0;
+    vertical-align: top;
+  }
+  .card-deck-wrapper {
+    margin-right: -20px;
+    margin-left: -20px;
+  }
+}
+
+@media (min-width: 544px) {
+  .card-group {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+  }
+  .card-group .card {
+    display: table-cell;
+    vertical-align: top;
+  }
+  .card-group .card + .card {
+    margin-left: 0;
+    border-left: 0;
+  }
+  .card-group .card:first-child {
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+  }
+  .card-group .card:first-child .card-img-top {
+    border-top-right-radius: 0;
+  }
+  .card-group .card:first-child .card-img-bottom {
+    border-bottom-right-radius: 0;
+  }
+  .card-group .card:last-child {
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+  }
+  .card-group .card:last-child .card-img-top {
+    border-top-left-radius: 0;
+  }
+  .card-group .card:last-child .card-img-bottom {
+    border-bottom-left-radius: 0;
+  }
+  .card-group .card:not(:first-child):not(:last-child) {
+    border-radius: 0;
+  }
+  .card-group .card:not(:first-child):not(:last-child) .card-img-top,
+  .card-group .card:not(:first-child):not(:last-child) .card-img-bottom {
+    border-radius: 0;
+  }
+}
+
+@media (min-width: 544px) {
+  .card-columns {
+    -webkit-column-count: 3;
+       -moz-column-count: 3;
+            column-count: 3;
+    -webkit-column-gap: 20px;
+       -moz-column-gap: 20px;
+            column-gap: 20px;
+  }
+  .card-columns .card {
+    width: 100%;
+  }
+}
+
+
+
+
+/*2*/
+/*-------------------------------------------------------------------------------------------------*/
+/* hack колонки одинаковой высоты */
+.row-flex, .row-flex > div[class*='col-'] {  
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex; flex-wrap:wrap;
+    flex:1 1 auto;
+}
+.row-flex-wrap {
+	-webkit-flex-flow: row wrap;
+    align-content: flex-start;
+    flex:0;
+}
+.row-flex > div[class*='col-'] {
+	 margin:-.2px; /* hack adjust for wrapping */
+}
+
+
+
+
+
+/*3*/
+/*-------------------------------------------------------------------------------------------------*/
+/* 
+Flexbox Bootstrap Cards
+Author : Bryan Willis
+Github Repo: https://github.com/Wordpress-Development/gridstrap
+*/
+
+/* EXAMPLE 1 - BOOTSTRAP FLEXBOX EQUAL HEIGHT THUMBNAILS
+*/
+.flex-row.row {
+	display: inline-block;/*fallback*/
+	zoom: 1;/*fallback*/
+	display: flex;
+	flex-wrap: wrap;
+}
+.flex-row.row > [class*='col-'] {
+	display: inline-block;/*fallback*/
+	zoom: 1;/*fallback */
+	
+	display: flex;
+	flex-direction: column;
+}
+/* Grow thumbnails to fill columns height */
+.flex-row .thumbnail,
+.flex-row .caption,
+.flex-row .box{
+	display: inline-block;/* fallback */
+	display: flex;
+	zoom: 1;/*fallback */
+	flex: 1 0 auto;
+	flex-direction: column;
+}
+/* Grow Text Container */
+.flex-text {
+	flex-grow: 1;
+}
+/* Flex Responsive Image */
+/*.flex-row img {
+	width: 100%;
+	height: auto;
+}*/
+
+
+/*MASONARY BOOTSTRAP 3 GRID*/
+.masonary-row.row {
+	-webkit-column-gap: 30px;
+	-moz-column-gap: 30px;
+	column-gap: 30px;
+	padding-left: 15px;
+	padding-right: 15px;
+	word-wrap: break-word;
+}
+
+.masonary-row [class*="col-"] {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	float: none;
+	padding: 0px;
+}
+
+@media (min-width: 480px) {
+	.masonary-row.row {
+		-webkit-column-count: 2;
+		-moz-column-count: 2;
+		column-count: 2;
+	}
+}
+
+@media (min-width: 768px) {
+	.masonary-row.row {
+		-webkit-column-count: 3;
+		-moz-column-count: 3;
+		column-count: 3;
+	}
+}
+
+
+
+
+
+/* Before try to use this code, please read this doc - http://getbootstrap.com.vn/examples/equal-height-columns/. This snippet will not work in some cases. */
+/* Row with equal height columns */
+/*
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+}
+*/
+
+
+
+/*Hack no gutter */
+/*http://julienmelissas.com/no-gutter-column-trick-for-bootstrap/*/
+
+.row.no-gutters {
+   margin-right: 0;
+   margin-left: 0;
+}
+.row.no-gutters > [class^="col-"],
+.row.no-gutters > [class*=" col-"] {
+   padding-right: 0;
+   padding-left: 0;
+}
+
+
+/*Hack no gutter 2*/
+/*
+.row.no-gutter {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.row.no-gutter [class*='col-']:not(:first-child),
+.row.no-gutter [class*='col-']:not(:last-child) {
+  padding-right: 0;
+  padding-left: 0;
+}
+*/
+
+
+
+
+
+
+/*5 coloumns Bootstrap3*/
+/*https://github.com/kennyki/bootstrap-5-columns*/
+/*http://plnkr.co/edit/fNsbcY?p=preview*/
+/*http://codepen.io/DenisDov/pen/pyjpgP*/
+
+.col-xs-5th-1, .col-xs-5th-2, .col-xs-5th-3, .col-xs-5th-4, .col-xs-5th-5 {
+  float: left;
+}
+.col-xs-5th-5 {
+  width: 100%;
+}
+.col-xs-5th-4 {
+  width: 80%;
+}
+.col-xs-5th-3 {
+  width: 60%;
+}
+.col-xs-5th-2 {
+  width: 40%;
+}
+.col-xs-5th-1 {
+  width: 20%;
+}
+.col-xs-5th-pull-5 {
+  right: 100%;
+}
+.col-xs-5th-pull-4 {
+  right: 80%;
+}
+.col-xs-5th-pull-3 {
+  right: 60%;
+}
+.col-xs-5th-pull-2 {
+  right: 40%;
+}
+.col-xs-5th-pull-1 {
+  right: 20%;
+}
+.col-xs-5th-pull-0 {
+  right: auto;
+}
+.col-xs-5th-push-5 {
+  left: 100%;
+}
+.col-xs-5th-push-4 {
+  left: 80%;
+}
+.col-xs-5th-push-3 {
+  left: 60%;
+}
+.col-xs-5th-push-2 {
+  left: 40%;
+}
+.col-xs-5th-push-1 {
+  left: 20%;
+}
+.col-xs-5th-push-0 {
+  left: auto;
+}
+.col-xs-5th-offset-5 {
+  margin-left: 100%;
+}
+.col-xs-5th-offset-4 {
+  margin-left: 80%;
+}
+.col-xs-5th-offset-3 {
+  margin-left: 60%;
+}
+.col-xs-5th-offset-2 {
+  margin-left: 40%;
+}
+.col-xs-5th-offset-1 {
+  margin-left: 20%;
+}
+.col-xs-5th-offset-0 {
+  margin-left: 0%;
+}
+@media (min-width: 768px) {
+  .col-sm-5th-1, .col-sm-5th-2, .col-sm-5th-3, .col-sm-5th-4, .col-sm-5th-5 {
+    float: left;
+  }
+  .col-sm-5th-5 {
+    width: 100%;
+  }
+  .col-sm-5th-4 {
+    width: 80%;
+  }
+  .col-sm-5th-3 {
+    width: 60%;
+  }
+  .col-sm-5th-2 {
+    width: 40%;
+  }
+  .col-sm-5th-1 {
+    width: 20%;
+  }
+  .col-sm-5th-pull-5 {
+    right: 100%;
+  }
+  .col-sm-5th-pull-4 {
+    right: 80%;
+  }
+  .col-sm-5th-pull-3 {
+    right: 60%;
+  }
+  .col-sm-5th-pull-2 {
+    right: 40%;
+  }
+  .col-sm-5th-pull-1 {
+    right: 20%;
+  }
+  .col-sm-5th-pull-0 {
+    right: auto;
+  }
+  .col-sm-5th-push-5 {
+    left: 100%;
+  }
+  .col-sm-5th-push-4 {
+    left: 80%;
+  }
+  .col-sm-5th-push-3 {
+    left: 60%;
+  }
+  .col-sm-5th-push-2 {
+    left: 40%;
+  }
+  .col-sm-5th-push-1 {
+    left: 20%;
+  }
+  .col-sm-5th-push-0 {
+    left: auto;
+  }
+  .col-sm-5th-offset-5 {
+    margin-left: 100%;
+  }
+  .col-sm-5th-offset-4 {
+    margin-left: 80%;
+  }
+  .col-sm-5th-offset-3 {
+    margin-left: 60%;
+  }
+  .col-sm-5th-offset-2 {
+    margin-left: 40%;
+  }
+  .col-sm-5th-offset-1 {
+    margin-left: 20%;
+  }
+  .col-sm-5th-offset-0 {
+    margin-left: 0%;
+  }
+}
+@media (min-width: 992px) {
+  .col-md-5th-1, .col-md-5th-2, .col-md-5th-3, .col-md-5th-4, .col-md-5th-5 {
+    float: left;
+  }
+  .col-md-5th-5 {
+    width: 100%;
+  }
+  .col-md-5th-4 {
+    width: 80%;
+  }
+  .col-md-5th-3 {
+    width: 60%;
+  }
+  .col-md-5th-2 {
+    width: 40%;
+  }
+  .col-md-5th-1 {
+    width: 20%;
+  }
+  .col-md-5th-pull-5 {
+    right: 100%;
+  }
+  .col-md-5th-pull-4 {
+    right: 80%;
+  }
+  .col-md-5th-pull-3 {
+    right: 60%;
+  }
+  .col-md-5th-pull-2 {
+    right: 40%;
+  }
+  .col-md-5th-pull-1 {
+    right: 20%;
+  }
+  .col-md-5th-pull-0 {
+    right: auto;
+  }
+  .col-md-5th-push-5 {
+    left: 100%;
+  }
+  .col-md-5th-push-4 {
+    left: 80%;
+  }
+  .col-md-5th-push-3 {
+    left: 60%;
+  }
+  .col-md-5th-push-2 {
+    left: 40%;
+  }
+  .col-md-5th-push-1 {
+    left: 20%;
+  }
+  .col-md-5th-push-0 {
+    left: auto;
+  }
+  .col-md-5th-offset-5 {
+    margin-left: 100%;
+  }
+  .col-md-5th-offset-4 {
+    margin-left: 80%;
+  }
+  .col-md-5th-offset-3 {
+    margin-left: 60%;
+  }
+  .col-md-5th-offset-2 {
+    margin-left: 40%;
+  }
+  .col-md-5th-offset-1 {
+    margin-left: 20%;
+  }
+  .col-md-5th-offset-0 {
+    margin-left: 0%;
+  }
+}
+@media (min-width: 1200px) {
+  .col-lg-5th-1, .col-lg-5th-2, .col-lg-5th-3, .col-lg-5th-4, .col-lg-5th-5 {
+    float: left;
+  }
+  .col-lg-5th-5 {
+    width: 100%;
+  }
+  .col-lg-5th-4 {
+    width: 80%;
+  }
+  .col-lg-5th-3 {
+    width: 60%;
+  }
+  .col-lg-5th-2 {
+    width: 40%;
+  }
+  .col-lg-5th-1 {
+    width: 20%;
+  }
+  .col-lg-5th-pull-5 {
+    right: 100%;
+  }
+  .col-lg-5th-pull-4 {
+    right: 80%;
+  }
+  .col-lg-5th-pull-3 {
+    right: 60%;
+  }
+  .col-lg-5th-pull-2 {
+    right: 40%;
+  }
+  .col-lg-5th-pull-1 {
+    right: 20%;
+  }
+  .col-lg-5th-pull-0 {
+    right: auto;
+  }
+  .col-lg-5th-push-5 {
+    left: 100%;
+  }
+  .col-lg-5th-push-4 {
+    left: 80%;
+  }
+  .col-lg-5th-push-3 {
+    left: 60%;
+  }
+  .col-lg-5th-push-2 {
+    left: 40%;
+  }
+  .col-lg-5th-push-1 {
+    left: 20%;
+  }
+  .col-lg-5th-push-0 {
+    left: auto;
+  }
+  .col-lg-5th-offset-5 {
+    margin-left: 100%;
+  }
+  .col-lg-5th-offset-4 {
+    margin-left: 80%;
+  }
+  .col-lg-5th-offset-3 {
+    margin-left: 60%;
+  }
+  .col-lg-5th-offset-2 {
+    margin-left: 40%;
+  }
+  .col-lg-5th-offset-1 {
+    margin-left: 20%;
+  }
+  .col-lg-5th-offset-0 {
+    margin-left: 0%;
+  }
+}
+
+
+
+/*Safari flex bug http://stackoverflow.com/questions/34250282/flexbox-safari-bug-flex-wrap*/
+.flex-row.container-fluid:before,
+.flex-row.container-fluid:after,
+.flex-row.container:before,
+.flex-row.container:after,
+.flex-row.row:before,
+.flex-row.row:after {
+    content: normal; 
+}
+
+
+/* fix 1px bug in Chrome */
+/*.row.row-flex:before,
+.row.row-flex:after
+{
+    display: none;
+}*/
